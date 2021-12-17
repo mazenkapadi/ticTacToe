@@ -17,6 +17,10 @@
 		964DFF6C276C1AC4000C6621 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964DFF42276C1AC3000C6621 /* ContentView.swift */; };
 		964DFF6D276C1AC4000C6621 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 964DFF43276C1AC4000C6621 /* Assets.xcassets */; };
 		964DFF6E276C1AC4000C6621 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 964DFF43276C1AC4000C6621 /* Assets.xcassets */; };
+		964DFF7E276C1B82000C6621 /* squareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964DFF7D276C1B82000C6621 /* squareView.swift */; };
+		964DFF7F276C1B82000C6621 /* squareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964DFF7D276C1B82000C6621 /* squareView.swift */; };
+		964DFF81276C1BC8000C6621 /* ticTacToeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964DFF80276C1BC8000C6621 /* ticTacToeModel.swift */; };
+		964DFF82276C1BC8000C6621 /* ticTacToeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964DFF80276C1BC8000C6621 /* ticTacToeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,8 @@
 		964DFF61276C1AC4000C6621 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		964DFF65276C1AC4000C6621 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		964DFF67276C1AC4000C6621 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		964DFF7D276C1B82000C6621 /* squareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = squareView.swift; sourceTree = "<group>"; };
+		964DFF80276C1BC8000C6621 /* ticTacToeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ticTacToeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,8 @@
 				964DFF41276C1AC3000C6621 /* ticTacToeApp.swift */,
 				964DFF42276C1AC3000C6621 /* ContentView.swift */,
 				964DFF43276C1AC4000C6621 /* Assets.xcassets */,
+				964DFF7D276C1B82000C6621 /* squareView.swift */,
+				964DFF80276C1BC8000C6621 /* ticTacToeModel.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -299,7 +307,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				964DFF81276C1BC8000C6621 /* ticTacToeModel.swift in Sources */,
 				964DFF6B276C1AC4000C6621 /* ContentView.swift in Sources */,
+				964DFF7E276C1B82000C6621 /* squareView.swift in Sources */,
 				964DFF69276C1AC4000C6621 /* ticTacToeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,7 +318,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				964DFF82276C1BC8000C6621 /* ticTacToeModel.swift in Sources */,
 				964DFF6C276C1AC4000C6621 /* ContentView.swift in Sources */,
+				964DFF7F276C1B82000C6621 /* squareView.swift in Sources */,
 				964DFF6A276C1AC4000C6621 /* ticTacToeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
